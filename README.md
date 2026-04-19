@@ -17,7 +17,7 @@ This project is a JavaFX-based library management system designed for librarians
 1. Install Java (JDK 17 or higher recommended)
 2. Set up JavaFX SDK
 3. Open the project in VS Code or any Java IDE
-4. Run `Main.java`
+4. Run Main.java
 
 ## Project Structure
 model/ → contains Book and Librarian classes  
