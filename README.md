@@ -1,18 +1,31 @@
-## Getting Started
+# Library (Loan) Catalog
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Project Description
+This project is a JavaFX-based library management system designed for librarians to manage books efficiently. It allows users to add, search, borrow, return, and remove books, as well as view available and borrowed books.
 
-## Folder Structure
+## Features
+- Add new books
+- View all books
+- Search for books
+- Borrow books
+- Return books
+- Remove books
+- View available books
+- View borrowed books
 
-The workspace contains two folders by default, where:
+## How to Run
+1. Install Java (JDK 17 or higher recommended)
+2. Set up JavaFX SDK
+3. Open the project in VS Code or any Java IDE
+4. Run `Main.java`
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Project Structure
+model/ → contains Book and Librarian classes  
+service/ → contains LibrarySystem logic  
+Main.java → handles UI and user interaction  
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Demo
+![App Screenshot](https://github.com/user-attachments/assets/620c9863-c2dd-486c-9fb0-c39515d783db)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Notes
+This project demonstrates Object-Oriented Programming concepts and is designed to be extendable with features such as database integration or GUI improvements.
