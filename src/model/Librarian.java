@@ -16,7 +16,7 @@ public class Librarian {
         return name;
     }
 
-    // actions the librarian can perform
+    //for terminal notes
     public void addBook(String title, String author) {
         system.addBook(title, author);
         System.out.println(name + " added a book: " + title);
