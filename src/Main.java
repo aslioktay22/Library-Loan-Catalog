@@ -170,6 +170,7 @@ public class Main extends Application {
         window.show();
     }
 
+    // SHOW/VIEW BOOKS
     private void showBooksWindow() {
         Stage window = new Stage();
         VBox layout = createLayout();
@@ -182,6 +183,7 @@ public class Main extends Application {
         window.show();
     }
 
+    // SEARCH BOOK
     private void openSearchWindow() {
         Stage window = new Stage();
 
@@ -236,6 +238,7 @@ public class Main extends Application {
         window.show();
     }
 
+    // BORROW BOOK
     private void openBorrowWindow() {
         Stage window = new Stage();
 
@@ -264,6 +267,7 @@ public class Main extends Application {
         window.show();
     }
 
+    // RETURN BOOK
     private void openReturnWindow() {
         Stage window = new Stage();
 
@@ -292,6 +296,7 @@ public class Main extends Application {
         window.show();
     }
 
+    // REMOVE BOOK
     private void openRemoveBookWindow() {
         Stage window = new Stage();
 
@@ -317,6 +322,7 @@ public class Main extends Application {
         window.show();
     }
 
+    // VIEW AVAILABLE BOOKS
     private void showAvailableBooksWindow() {
         Stage window = new Stage();
         VBox layout = createLayout();
@@ -328,6 +334,7 @@ public class Main extends Application {
         window.show();
     }
 
+    // VIEW BORROWED BOOKS
     private void showBorrowedBooksWindow() {
         Stage window = new Stage();
         VBox layout = createLayout();
@@ -339,6 +346,7 @@ public class Main extends Application {
         window.show();
     }
 
+    //LAUNCHER/MAIN METHOD
     public static void main(String[] args) {
         launch();
     }
