@@ -24,8 +24,5 @@ model/ → contains Book and Librarian classes
 service/ → contains LibrarySystem logic  
 Main.java → handles UI and user interaction  
 
-## Demo
-![App Screenshot](https://github.com/user-attachments/assets/620c9863-c2dd-486c-9fb0-c39515d783db)
-
 ## Notes
 This project demonstrates Object-Oriented Programming concepts and is designed to be extendable with features such as database integration or GUI improvements.
